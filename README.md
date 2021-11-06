@@ -1,6 +1,6 @@
 <div align="center">
   
-![Logo](/DTB-logo.jpg)
+![Logo](/logo/DTB-logo.jpg)
 
 Install .deb packages on any distribution:)
   
