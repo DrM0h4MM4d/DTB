@@ -49,7 +49,7 @@ function file_path()
 # Check package manager
 function run_installation()
 {
-    echo -e "${ORANGE} Installing in proccess, don't do something that fucks the installation please."
+    echo -e "${ORANGE} Installing in proccess, don't do something that errors occurring while the installation please."
     if [ $(command -v apt) &> /dev/null ]; then
         apt install -y $1 1> /dev/null
     elif [ $(command -v pacman) &> /dev/null ]; then
